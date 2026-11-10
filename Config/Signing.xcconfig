@@ -1,0 +1,7 @@
+// Signing for device builds. Override these in Config/Local.xcconfig, which git
+// ignores: set DEVELOPMENT_TEAM to your Apple team ID and BUNDLE_ID_PREFIX to a
+// reverse-DNS prefix you control (bundle IDs are unique across all teams).
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Local.xcconfig"

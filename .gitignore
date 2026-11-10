@@ -1,0 +1,10 @@
+.build/
+.cache/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+.env
+*.mobileprovision
+Config/Local.xcconfig
+.codex/
